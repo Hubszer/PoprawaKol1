@@ -1,6 +1,6 @@
 ﻿namespace PoprawaKolokwium1;
 
-public class CarDTO
+public class ClientDTO
 {
     public int Id { get; set; }
     public string FirstName { get; set; }
