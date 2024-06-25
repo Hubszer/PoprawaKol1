@@ -1,6 +1,6 @@
 ﻿namespace PoprawaKolokwium1;
 
-public interface ICarService
+public interface ICarRepo
 {
     Task<bool> DoesClientExists(int id);
     Task<ClientDTO> GetCLientData(int id);
